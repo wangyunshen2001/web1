@@ -1,0 +1,10 @@
+<body>
+    这是一个超链接:
+    <a href="demo3-4.html">
+    HTML中的六级标题
+    </a>
+    <br/>
+    <a href="http://www.baidu.com"target="-blank">
+        <img border="0" src="1.jpg" height="50" width="50"/>
+    </a>
+</body>        
