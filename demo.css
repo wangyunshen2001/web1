@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>无标题文档</title>
+	    <meta charset="utf-8"/>
+    </head>    
+        <style>
+            p{font-size:16px;}
+            .yp{color:blue;font-size:12px;}
+            #hp{color:black;}
+            #jp{color:grreen;}
+            <link rel="stylesheet" type="text/css" href=""
+        </style>
+        
+    <body>
+    <ul> 
+        <p class=".yp"><li>第一条国际新闻</li></p>
+        <p class=".yp"><li>第二条国际新闻</li></p> 
+        <p id="hp"><li> <a href=“#”> 第三条国际新闻 </a> </li></p> 
+        <p class=".yp"><li>第四条国际新闻</li></p> 
+    </ul> 
+        <p id="jp">第五条国际新闻</p> 
+        <p id="jp"><a href=“#”> 第六条国际新闻 </a></p>
+ 
+    </body>    
+    
+</html>
