@@ -7,22 +7,71 @@
         <style type="text/css">
             li,p,a{font-size:16px;color:green;font-family:'幼圆';}
             .yp{color:blue;font-size:12px;}
-            #hp{color:black;}
+            div{
+                color:yellow;
+                .yp{color:blue;font-size:12px;}
+
+            }
+            #div1{
+                border:8px solid red;
+            }
+            #div2{
+                border: 3px solid grey;
+            }
+
+            
             p{
                 font-size:4em;font-weight:900;font-style:italic;text-indent:32px;text-align:center; text-decoration: underline;
                 font:italic bold 20px '幼圆';
             }
-
+            p,a,ul{
+                height: 80px;
+                width:100px;
+                border:9px;
+                padding:10px;
+                margin:6px;
+            }
+            img{
+                width: :180px;
+                display: block;
+            }
+            h1{
+                border-width: 1px;
+                border-color: rgb(120,0,0);
+                border-style: solid;
+                border-top-width: 10px;
+                border-right-width: 10px;
+                border-bottom-width: 20px;
+                border-left-width: 30px;            border-width: 20px 12px 23px 23px;   border:3px dotted #FF9900;
+            }
         </style>
     </head>    
     <body>
         <ul> 
-            <li class="yp" style="font-family:'幼圆'">第一条国际新闻</li>
-            <li class="yp">第二条国际新闻</li>
-            <li class="yp"> <a href=“#” id="hp"> 第三条国际新闻 </a> </li> 
-            <li class="yp">第四条国际新闻</li> 
+            
         </ul> 
         <p>第五条国际新闻</p> 
+        
         <a href=“#”> 第六条国际新闻 </a>
+        <a href=“#”> 第三个超链接 </a>
+        <div id="wrap">
+            <h1>文章标题
+                display
+            </h1>
+            <a href=“#”> 第三个超链接 </a>
+            <p>
+                <span class="yp" 作为内容或其他元素的容器 • 控制内部元素和内容的样式>
+                </span>
+                display:none;
+
+
+            </p>
+            <ul>
+                <li>111</li>
+                <li>222</li>
+            </ul>
+
+        </div>
+
     </body>        
 </html>
